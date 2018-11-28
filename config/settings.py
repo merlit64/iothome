@@ -25,7 +25,7 @@ SECRET_KEY = 'p0v0(t4=7%bll1qdpr@i69*p-fj=+ldt9@55#=-pzz(zk&gdt2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -131,7 +131,7 @@ STATICFILES_DIRS = [
         os.path.join(os.path.dirname(BASE_DIR), 'homeiot-project', 'iotserver', 'media'),
         ]
 
-ASGI_APPLICATION = "apps.routing.application"
+ASGI_APPLICATION = "config.routing.application"
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
