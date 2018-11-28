@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'iotserver.alexa',
     'iotserver.controller',
     'iotserver.discovery',
+
+    
+    'channels',
+
 ]
 
 MIDDLEWARE = [
@@ -126,3 +130,13 @@ STATICFILES_DIRS = [
         os.path.join(os.path.dirname(BASE_DIR), 'homeiot-project', 'iotserver', 'static'),
         os.path.join(os.path.dirname(BASE_DIR), 'homeiot-project', 'iotserver', 'media'),
         ]
+
+ASGI_APPLICATION = "apps.routing.application"
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 7777)],
+        },
+    },
+}
