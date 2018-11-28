@@ -2,14 +2,14 @@
 
 ## Build your Raspberry Pi as your development workstation
 
-	Download Raspbian Stretch from here:
-	<https://www.raspberrypi.org/downloads/raspbian/>
-	I used the 10-29-2018 version, but newer should be better
+Download Raspbian Stretch from here:
+<https://www.raspberrypi.org/downloads/raspbian/>
+I used the 10-29-2018 version, but newer should be better
 
-	You can use these instructions if you need help burning the SD Card
-	<https://trendblog.net/install-raspbian-sd-card-os-x-windows/>
+You can use these instructions if you need help burning the SD Card
+<https://trendblog.net/install-raspbian-sd-card-os-x-windows/>
 
-	Boot up your Pi and run through the prompts to configure the locality, connect it to your network and update the software.
+Boot up your Pi and run through the prompts to configure the locality, connect it to your network and update the software.
 
 ## Build the Environment
 
