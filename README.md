@@ -14,6 +14,7 @@ Boot up your Pi and run through the prompts to configure the locality, connect i
 ## Build the Environment
 
 Open a terminal window and perform the following commands:
+
 	sudo apt update
 	sudo apt upgrade
 	sudo apt install virtualenv
@@ -27,14 +28,30 @@ Open a terminal window and perform the following commands:
 	virtualenv -p /usr/bin/python3 iothome
 	source iothome/bin/activate
 
-You should now have “(iothome)” to the left of your command prompt indicating a virtual environment
+You should now have “(iothome)” to the left of your command prompt indicating a virtual environment.  You want to perform all of the following commands with that virtual environment active.
 
-## Git Clone the IOT Home Server
+## Install and start Redis
+
+To install and start Redis perform the following commands:
+
+	blah
+	blah
+	blah
+	
+
+## Git Clone the IOT Home Server and install Dependencies
 
 	cd ~/Desktop/gcprojects
 	git clone https://github.com/merlit64/iothome
 
-This will create the iothome directory and add the project files on your local computer, as well as initiate the git synchronization between the development workstation and GitHub
+This will create the iothome directory and add the project files on your local computer, as well as initiate the git synchronization between the development workstation and GitHub.
+
+Now install all package requirements.
+
+	cd ~/Desktop/gcprojects/iothome
+	pip3 install -r requirements.txt
+	
+	
 
 
 
