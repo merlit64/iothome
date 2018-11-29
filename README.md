@@ -44,6 +44,7 @@ Open a separate terminal window and run
 
 	redis-server
 
+Let that terminal window run in the background while you perform the next steps on a different terminal.
 
 ## Build and Start your Virtual Environment
 
@@ -57,7 +58,7 @@ You should now have “(iothome)” to the left of your command prompt indicatin
 ## Git Clone the IOT Home Server and install Dependencies
 
 	cd ~/Desktop/gcprojects
-	git clone https://github.com/merlit64/iothome
+	git clone https://github.com/merlit64/iothome.git
 
 This will create the iothome directory and add the project files on your local computer, as well as initiate the git synchronization between the development workstation and GitHub.
 
