@@ -49,6 +49,7 @@ Let that terminal window run in the background while you perform the next steps 
 ## Build and Start your Virtual Environment
 
 	cd ~/Desktop/gcprojects/virtualenvs
+	sudo apt install virtualenv
 	virtualenv -p /usr/bin/python3 iothome
 	source iothome/bin/activate
 
