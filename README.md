@@ -73,7 +73,6 @@ Now install all package requirements.
 From the command line:
 
 	cd ~/Desktop/gcprojects/iothome
-	pip install django
 	ifconfig
 	python3 manage.py runserver x.x.x.x:8000
 	
