@@ -1,6 +1,6 @@
 # IOT Home GC Project
 
-## Build your Raspberry Pi as your development workstation
+## Build your Raspberry Pi as your development workstation 
 
 Download Raspbian Stretch from here:
 <https://www.raspberrypi.org/downloads/raspbian/>
